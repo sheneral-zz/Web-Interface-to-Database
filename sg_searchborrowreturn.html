@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Search by Title (Borrowed or Returned)</title>
+<style>
+h2 {text-align:center; color: black;}
+h4 { color:black;}
+
+input { margin: 2px;}
+</style>
+</head>
+<body>
+
+<center>
+<h2>Please fill in the form to see whether a book has been borrowed and returned.</h2>
+
+<form id="formName" name="formName" 
+method = 'post' 
+action ="sg_form_searchBorrowReturn.php">
+
+<!--text box -->
+<h4><em>Book title</em></h4><input type="text" name="title" id="title" value="" size="30" />
+
+
+<p>
+<input type="submit" name="sButton" value="Search" />
+</center>
+</form>
+
+</body>
+</html>

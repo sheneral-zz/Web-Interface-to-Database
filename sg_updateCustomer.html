@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Update Member Name</title>
+<style>
+h2 {text-align:center; color: black;}
+h4 { color:black;}
+
+input { margin: 2px;}
+</style>
+</head>
+<body>
+
+<center>
+<h2>Please fill in the form to update your information.</h2>
+
+<form id="formName" name="formName" 
+method = 'post' 
+action ="sg_form_updateCustomer.php">
+
+<!--text box -->
+<h4><em>Old First Name</em></h4><input type="text" name="OldFName" id="OldFName" value="" size="30" />
+<h4><em>Old Last Name</em></h4><input type="text" name="OldLName" id="OldLName" value="" size="30" />
+<h4><em>New First Name</em></h4><input type="text" name="NewFName" id="NewFName" value="" size="30" />
+<h4><em>New Last Name</em></h4><input type="text" name="NewLName" id="NewLName" value="" size="30" />
+
+
+<p>
+<input type="submit" name="sButton" value="Update" />
+</center>
+</form>
+
+</body>
+</html>
